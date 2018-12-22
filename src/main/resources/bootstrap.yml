@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: article
+  application:
+    name: spring-article-l4
+  cloud:
+    config:
+      uri: http://localhost:8001
